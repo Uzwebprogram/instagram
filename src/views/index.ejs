@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="app.css">
+    <title>Document</title>
+</head>
+<body>
+<nav class="navbar">
+    <div class="nav-wrapper">
+        <img src="img/logo.PNG" class="brand-img" alt="">
+        <input type="text" class="search-box" placeholder="search">
+        <div class="nav-items">
+           <a href="/"> <img src="http://localhost:9000/img/home.PNG" class="icon" alt=""></a>
+            <img src="http://localhost:9000/img/messenger.PNG" class="icon" alt="">
+            <img src="http://localhost:9000/img/add.PNG" class="icon" alt="">
+            <img src="http://localhost:9000/img/explore.PNG" class="icon" alt="">
+            <img src="http://localhost:9000/img/like.PNG" class="icon" alt="">
+            <div class="icon user-profile"></div>
+        </div>
+    </div>
+</nav>
+<section class="main">
+    <div class="wrapper">
+        <div class="left-col">
+            <div class="status-wrapper">
+                
+            <% userFilter && userFilter.map(e => { %>
+                <div class="status-card">
+                    <div class="profile-pic"><img src=<%= e.Img %>></div>
+                    <p class="username"><%= e.username %></p>
+                </div>
+                              
+            <% }) %>
+        </div>
+    </div>
+
+</div>
+</section>
+<section class="mains">
+    <div class="wrapper">
+        <div class="left-col">
+
+            <% PostFilter && PostFilter.map(e => { %>
+            <div class="post">
+                <div class="info">
+                    <div class="user">
+                        <div class="profile-pic"><img src=<%= e.Img %> alt=""></div>
+                        <a class="username" href=<%= e.username %>><%= e.username %></a>
+                    </div>
+                    <img src="http://localhost:9000/img/option.PNG" class="options" alt="">
+                </div>
+                <img  class="post-image" alt="" src=<%= e.PostImg %>>
+                <div class="post-content">
+                    <div class="reaction-wrapper">
+                        <img src="http://localhost:9000/img/like.PNG" class="icon" alt="">
+                        <img src="http://localhost:9000/img/comment.PNG" class="icon" alt="">
+                        <img src="http://localhost:9000/img/send.PNG" class="icon" alt="">
+                        <img src="http://localhost:9000/img/save.PNG" class="save icon" alt="">
+                    </div>
+                    <p class="likes"><%= e.PostLike %> likes</p>
+                    <p class="description"><span><%= e.username %> </span><%= e.PostDes %></p>
+                    <p class="post-time">2 minutes ago</p>
+                </div>
+                <div class="comment-wrapper">
+                    <img src="http://localhost:9000/img/smile.PNG" class="icon" alt="">
+                    <input type="text" class="comment-box" placeholder="Add a comment">
+                    <button class="comment-btn">post</button>
+                </div>
+              
+            </div>
+              
+            <% }) %>
+        </div>
+              <div class="right-col">
+            <div class="profile-card">
+                <div class="profile-pic">
+                    <img src="http://localhost:9000/img/user1.jpg" alt="">
+                </div>
+                <div>
+                    <a href="/said_bek20" class="username">Said_bek10</a>
+                    <p class="sub-text">Atambayev Saidbek</p>
+                </div>
+                <button class="action-btn">switch</button>
+            </div>
+            <p class="suggestion-text">Suggestions for you</p>
+            <% userFilter && userFilter.map(e => { %>
+            <div class="profile-card">
+                <div class="profile-pic">
+                    <img  alt="" src=<%= e.Img %> >
+                </div>
+                <div>
+                    <a class="username" href=<%= e.username %>><%= e.username %></a>
+                    <p class="sub-text">followed bu user</p>
+                </div>
+                <button class="action-btn">follow</button>
+            </div>
+                            
+            <% }) %>
+        </div>
+</section>
+    <script src="index.js"></script>
+</body>
+</html>

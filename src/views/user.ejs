@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="user.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div class="nav-wrapper">
+                <img src="img/logo.PNG" class="brand-img" alt="">
+                <input type="text" class="search-box" placeholder="search">
+                <div class="nav-items">
+                    <a href="/"> <img src="http://localhost:9000/img/home.PNG" class="icon" alt=""></a>
+                    <img src="http://localhost:9000/img/messenger.PNG" class="icon" alt="">
+                    <img src="http://localhost:9000/img/add.PNG" class="icon" alt="">
+                    <img src="http://localhost:9000/img/explore.PNG" class="icon" alt="">
+                    <img src="http://localhost:9000/img/like.PNG" class="icon" alt="">
+                    <div class="icon user-profile"></div>
+                </div>
+            </div>
+        </nav>
+        <div class="container">
+    
+            <div class="profile">
+    
+                <div class="profile-image">
+    
+                    <img class="profile-images" width="150" height="150" src=<%= userFilter.Img  %>>
+    
+                </div>
+    
+                <div class="profile-user-settings">
+    
+                    <h1 class="profile-user-name"><%= userFilter.username %></h1>
+    
+                    <button class="btn profile-edit-btn">Edit Profile</button>
+    
+                    <button class="btn profile-settings-btn" aria-label="profile settings"><i class="fas fa-cog" aria-hidden="true"></i></button>
+    
+                </div>
+    
+                <div class="profile-stats">
+    
+                    <ul>
+                        <li><span class="profile-stat-count"><%= userFilter.countPost %></span> posts</li>
+                        <li><span class="profile-stat-count"><%= userFilter.countFolowers %></span> followers</li>
+                        <li><span class="profile-stat-count"><%= userFilter.countFolowing %></span> following</li>
+                    </ul>
+    
+                </div>
+    
+                <div class="profile-bio">
+    
+                    <p><span class="profile-real-name"><%= userFilter.username %></span><%= userFilter.counDes %> </p>
+                    <a  class="profile-real-atribut"  href=<%= userFilter.LinkPersonal%> ><%= userFilter.LinkPersonal%></a>
+                </div>
+    
+            </div>
+        </div>
+    </header>
+    
+    <main>
+    
+        <div class="container">
+    
+            <div class="gallery">
+                
+            <% PostFilter && PostFilter.map(e => { %>
+ 
+                <div class="gallery-item" tabindex="0">
+    
+                    <img class="gallery-image" alt="" width="293" height="293" src=<%= e.PostImg %>  >
+    
+                    <div class="gallery-item-info">
+    
+                        <ul>
+                            <li class="gallery-item-likes"><span class="visually-hidden">Likes:</span><i class="fas fa-heart" aria-hidden="true"></i> <%= e.PostLike %></li>
+                            <li class="gallery-item-comments"><span class="visually-hidden">Comments:</span><i class="fas fa-comment" aria-hidden="true"></i> <%= e.PostComment %></li>
+                        </ul>
+    
+                    </div>
+    
+                </div>
+                
+            <% }) %>
+            </div>
+            <!-- End of gallery -->
+    
+        </div>
+        <!-- End of container -->
+    
+    </main>
+</body>
+</html>
