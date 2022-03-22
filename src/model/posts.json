@@ -32,7 +32,7 @@
         "id" : 6,
         "username" : "atambaevv.a",
         "Img" : "https://instagram02.herokuapp.com/img/user2.jpg", 
-        "PostImg" : "https://instagram02.herokuapp.com/img/user2-Post1.jpg",
+        "PostImg" : "https://instagram02.herokuapp.com/img/user2-post1.jpg",
         "PostLike" : "35",
         "PostComment": "6",
         "userId" : "atambaevv.a",
@@ -62,7 +62,7 @@
         "id" : 7, 
         "username" : "atambaevv.a",
         "Img" : "https://instagram02.herokuapp.com/img/user2.jpg",
-        "PostImg" : "https://instagram02.herokuapp.com/img/user2-Post2.jpg",
+        "PostImg" : "https://instagram02.herokuapp.com/img/user2-post2.jpg",
         "PostLike" : "38",
         "PostComment": "3",
         "userId" : "atambaevv.a"
@@ -71,7 +71,7 @@
         "id" : 8, 
         "username" : "atambaevv.a",
         "Img" : "https://instagram02.herokuapp.com/img/user2.jpg",
-        "PostImg" : "https://instagram02.herokuapp.com/img/user2-Post3.jpg",
+        "PostImg" : "https://instagram02.herokuapp.com/img/user2-post3.jpg",
         "PostLike" : "41",
         "PostComment": "4",
         "userId" : "atambaevv.a"
