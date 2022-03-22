@@ -7,7 +7,7 @@
         "counDes" : "Web Program 🧑🏻‍💻  SystemFront company🏢 Najot Ta'lim 🎓 Telegram kanal⏬" ,
         "countPost" : 10,
         "LinkPersonal" : "https://t.me/The_Atambaev",
-        "Img" : "http://localhost:9000/img/user1.jpg"
+        "Img" : "https://instagram02.herokuapp.com/img/user1.jpg"
     },
     {
         "id" : 2 , 
@@ -16,7 +16,7 @@
         "countFolowing" : "40",
         "counDes" : "20 F 026 FA" ,
         "countPost" : 3,
-        "Img" : "http://localhost:9000/img/user2.jpg",
+        "Img" : "https://instagram02.herokuapp.com/img/user2.jpg",
         "LinkPersonal" : "https://t.me/The_Atambaev"
     },
     {
@@ -25,7 +25,7 @@
         "countFolowers" : "1189" ,
         "countFolowing" : "677",
         "counDes" : "Omonboyev Nodir Ma sha'allohu quvvata illa billahi" ,
-        "Img" : "http://localhost:9000/img/user3.jpg",
+        "Img" : "https://instagram02.herokuapp.com/img/user3.jpg",
         "countPost" : 4,
         "LinkPersonal" : "https://t.me/The_Atambaev"
     },
@@ -35,7 +35,7 @@
         "countFolowers" : "166" ,
         "countFolowing" : "100",
         "counDes" : "Jasur Amanov Interior Designer Telegram kanal⏬" ,
-        "Img" : "http://localhost:9000/img/user4.jpg",
+        "Img" : "https://instagram02.herokuapp.com/img/user4.jpg",
         "countPost" : 5,
         "LinkPersonal" : "https://t.me/Interior_Design_3Dsmax"
     },
@@ -44,7 +44,7 @@
         "username" : "abdurashiidov",
         "countFolowers" : "1902" ,
         "countFolowing" : "1594",
-        "Img" : "http://localhost:9000/img/user5.jpg",
+        "Img" : "https://instagram02.herokuapp.com/img/user5.jpg",
         "counDes" : "Frontend Developer 🧑🏻‍💻" ,
         "countPost" : 3,
         "LinkPersonal" : "https://t.me/abdurashiidov"

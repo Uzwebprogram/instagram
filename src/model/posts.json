@@ -2,8 +2,8 @@
     {
         "id" : 1, 
         "username" : "said_bek20",
-        "Img" : "http://localhost:9000/img/user1.jpg",
-        "PostImg" : "http://localhost:9000/img/user1-Post1.jpg",
+        "Img" : "https://instagram02.herokuapp.com/img/user1.jpg",
+        "PostImg" : "https://instagram02.herokuapp.com/img/user1-Post1.jpg",
         "PostLike" : "305",
         "PostComment": "56",
         "userId" : "said_bek20",
@@ -12,8 +12,8 @@
     {
         "id" : 2, 
         "username" : "abdurashiidov",
-        "Img" : "http://localhost:9000/img/user5.jpg",
-        "PostImg" : "http://localhost:9000/img/user5-Post3.png",
+        "Img" : "https://instagram02.herokuapp.com/img/user5.jpg",
+        "PostImg" : "https://instagram02.herokuapp.com/img/user5-Post3.png",
         "PostLike" : "600",
         "PostComment": "200",
         "userId" : "abdurashiidov"
@@ -21,8 +21,8 @@
     {
         "id" : 3, 
         "username" : "said_bek20",
-        "Img" : "http://localhost:9000/img/user1.jpg",
-        "PostImg" : "http://localhost:9000/img/user1-Post3.jpg",
+        "Img" : "https://instagram02.herokuapp.com/img/user1.jpg",
+        "PostImg" : "https://instagram02.herokuapp.com/img/user1-Post3.jpg",
         "PostLike" : "416",
         "PostComment": "32",
         "userId" : "said_bek20",
@@ -31,8 +31,8 @@
     {
         "id" : 6,
         "username" : "atambaevv.a",
-        "Img" : "http://localhost:9000/img/user2.jpg", 
-        "PostImg" : "http://localhost:9000/img/user2-Post1.jpg",
+        "Img" : "https://instagram02.herokuapp.com/img/user2.jpg", 
+        "PostImg" : "https://instagram02.herokuapp.com/img/user2-Post1.jpg",
         "PostLike" : "35",
         "PostComment": "6",
         "userId" : "atambaevv.a",
@@ -41,8 +41,8 @@
     {
         "id" : 5, 
         "username" : "said_bek20",
-        "Img" : "http://localhost:9000/img/user1.jpg",
-        "PostImg" : "http://localhost:9000/img/user1-Post5.jpg",
+        "Img" : "https://instagram02.herokuapp.com/img/user1.jpg",
+        "PostImg" : "https://instagram02.herokuapp.com/img/user1-Post5.jpg",
         "PostLike" : "495",
         "PostComment": "16",
         "userId" : "said_bek20",
@@ -51,8 +51,8 @@
     {
         "id" : 4, 
         "username" : "said_bek20",
-        "Img" : "http://localhost:9000/img/user1.jpg",
-        "PostImg" : "http://localhost:9000/img/user1-Post4.jpg",
+        "Img" : "https://instagram02.herokuapp.com/img/user1.jpg",
+        "PostImg" : "https://instagram02.herokuapp.com/img/user1-Post4.jpg",
         "PostLike" : "512",
         "PostComment": "76",
         "userId" : "said_bek20",
@@ -61,8 +61,8 @@
     {
         "id" : 7, 
         "username" : "atambaevv.a",
-        "Img" : "http://localhost:9000/img/user2.jpg",
-        "PostImg" : "http://localhost:9000/img/user2-Post2.jpg",
+        "Img" : "https://instagram02.herokuapp.com/img/user2.jpg",
+        "PostImg" : "https://instagram02.herokuapp.com/img/user2-Post2.jpg",
         "PostLike" : "38",
         "PostComment": "3",
         "userId" : "atambaevv.a"
@@ -70,8 +70,8 @@
     {
         "id" : 8, 
         "username" : "atambaevv.a",
-        "Img" : "http://localhost:9000/img/user2.jpg",
-        "PostImg" : "http://localhost:9000/img/user2-Post3.jpg",
+        "Img" : "https://instagram02.herokuapp.com/img/user2.jpg",
+        "PostImg" : "https://instagram02.herokuapp.com/img/user2-Post3.jpg",
         "PostLike" : "41",
         "PostComment": "4",
         "userId" : "atambaevv.a"
@@ -79,8 +79,8 @@
     {
         "id" : 9, 
         "username" : "nodiromonboyev30sc",
-        "Img" : "http://localhost:9000/img/user3.jpg",
-        "PostImg" : "http://localhost:9000/img/user3-Post1.png",
+        "Img" : "https://instagram02.herokuapp.com/img/user3.jpg",
+        "PostImg" : "https://instagram02.herokuapp.com/img/user3-Post1.png",
         "PostLike" : "501",
         "PostComment": "150",
         "userId" : "nodiromonboyev30sc"
@@ -88,8 +88,8 @@
     {
         "id" : 10, 
         "username" : "nodiromonboyev30sc",
-        "Img" : "http://localhost:9000/img/user3.jpg",
-        "PostImg" : "http://localhost:9000/img/user3-Post2.png",
+        "Img" : "https://instagram02.herokuapp.com/img/user3.jpg",
+        "PostImg" : "https://instagram02.herokuapp.com/img/user3-Post2.png",
         "PostLike" : "625",
         "PostComment": "40",
         "userId" : "nodiromonboyev30sc"
@@ -97,8 +97,8 @@
     {
         "id" : 11, 
         "username" : "nodiromonboyev30sc",
-        "Img" : "http://localhost:9000/img/user3.jpg",
-        "PostImg" : "http://localhost:9000/img/user3-Post3.png",
+        "Img" : "https://instagram02.herokuapp.com/img/user3.jpg",
+        "PostImg" : "https://instagram02.herokuapp.com/img/user3-Post3.png",
         "PostLike" : "443",
         "PostComment": "130",
         "userId" : "nodiromonboyev30sc"
@@ -106,8 +106,8 @@
     {
         "id" : 12, 
         "username" : "nodiromonboyev30sc",
-        "Img" : "http://localhost:9000/img/user3.jpg",
-        "PostImg" : "http://localhost:9000/img/user3-Post4.png",
+        "Img" : "https://instagram02.herokuapp.com/img/user3.jpg",
+        "PostImg" : "https://instagram02.herokuapp.com/img/user3-Post4.png",
         "PostLike" : "700",
         "PostComment": "430",
         "userId" : "nodiromonboyev30sc"
@@ -115,8 +115,8 @@
     {
         "id" : 13, 
         "username" : "The.Amanov",
-        "Img" : "http://localhost:9000/img/user4.jpg",
-        "PostImg" : "http://localhost:9000/img/user4-Post1.jpg",
+        "Img" : "https://instagram02.herokuapp.com/img/user4.jpg",
+        "PostImg" : "https://instagram02.herokuapp.com/img/user4-Post1.jpg",
         "PostLike" : "40",
         "PostComment": "4",
         "userId" : "The.Amanov"
@@ -124,8 +124,8 @@
     {
         "id" : 14, 
         "username" : "The.Amanov",
-        "Img" : "http://localhost:9000/img/user4.jpg",
-        "PostImg" : "http://localhost:9000/img/user4-Post2.jpg",
+        "Img" : "https://instagram02.herokuapp.com/img/user4.jpg",
+        "PostImg" : "https://instagram02.herokuapp.com/img/user4-Post2.jpg",
         "PostLike" : "50",
         "PostComment": "6",
         "userId" : "The.Amanov"
@@ -133,8 +133,8 @@
     {
         "id" : 15, 
         "username" : "The.Amanov",
-        "Img" : "http://localhost:9000/img/user4.jpg",
-        "PostImg" : "http://localhost:9000/img/user4-Post3.jpg",
+        "Img" : "https://instagram02.herokuapp.com/img/user4.jpg",
+        "PostImg" : "https://instagram02.herokuapp.com/img/user4-Post3.jpg",
         "PostLike" : "70",
         "PostComment": "10",
         "userId" : "The.Amanov"
@@ -142,8 +142,8 @@
     {
         "id" : 16, 
         "username" : "The.Amanov",
-        "Img" : "http://localhost:9000/img/user4.jpg",
-        "PostImg" : "http://localhost:9000/img/user4-Post4.png",
+        "Img" : "https://instagram02.herokuapp.com/img/user4.jpg",
+        "PostImg" : "https://instagram02.herokuapp.com/img/user4-Post4.png",
         "PostLike" : "40",
         "PostComment": "4",
         "userId" : "The.Amanov"
@@ -151,8 +151,8 @@
     {
         "id" : 17, 
         "username" : "abdurashiidov",
-        "Img" : "http://localhost:9000/img/user5.jpg",
-        "PostImg" : "http://localhost:9000/img/user5-Post1.png",
+        "Img" : "https://instagram02.herokuapp.com/img/user5.jpg",
+        "PostImg" : "https://instagram02.herokuapp.com/img/user5-Post1.png",
         "PostLike" : "400",
         "PostComment": "300",
         "userId" :"abdurashiidov"
@@ -160,8 +160,8 @@
     {
         "id" : 18, 
         "username" : "abdurashiidov",
-        "Img" : "http://localhost:9000/img/user5.jpg",
-        "PostImg" : "http://localhost:9000/img/user5-Post2.png",
+        "Img" : "https://instagram02.herokuapp.com/img/user5.jpg",
+        "PostImg" : "https://instagram02.herokuapp.com/img/user5-Post2.png",
         "PostLike" : "450",
         "PostComment": "330",
         "userId" : "abdurashiidov"
@@ -169,8 +169,8 @@
     {
         "id" : 19, 
         "username" : "said_bek20",
-        "Img" : "http://localhost:9000/img/user1.jpg",
-        "PostImg" : "http://localhost:9000/img/user1-Post2.jpg",
+        "Img" : "https://instagram02.herokuapp.com/img/user1.jpg",
+        "PostImg" : "https://instagram02.herokuapp.com/img/user1-Post2.jpg",
         "PostLike" : "326",
         "PostComment": "36",
         "userId" : "said_bek20"
